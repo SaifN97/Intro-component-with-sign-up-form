@@ -91,6 +91,35 @@ body {
   font-weight: 600;
 }
 
+.form__control {
+  position: relative;
+}
+.form__control.error input {
+  margin-bottom: 2rem;
+  border: 1px #ff7a7a solid;
+}
+.form__control.error img {
+  visibility: visible;
+}
+.form__control.error small {
+  visibility: visible;
+}
+.form__control img {
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.form__control small {
+  visibility: hidden;
+  color: #ff7a7a;
+  position: absolute;
+  padding: 1rem 0;
+  top: 30px;
+  right: 0;
+  font-style: italic;
+}
+
 .shadow {
   box-shadow: 0px 6px rgba(0, 0, 0, 0.1);
 }
@@ -110,7 +139,7 @@ body {
   }
 
   .main__text {
-    width: 85%;
+    width: 55%;
     margin-right: 2rem;
   }
   .main__text h1 {
@@ -120,6 +149,10 @@ body {
   .main__text p {
     text-align: left;
     font-size: 1.2rem;
+  }
+
+  .main__cta {
+    width: 55%;
   }
 }
 

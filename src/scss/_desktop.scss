@@ -13,7 +13,7 @@
     max-width: 80%;
   }
   .main__text {
-    width: 85%;
+    width: 55%;
     margin-right: 2rem;
     h1 {
       font-size: 3rem;
@@ -23,5 +23,8 @@
       text-align: left;
       font-size: 1.2rem;
     }
+  }
+  .main__cta {
+    width: 55%;
   }
 }
