@@ -45,16 +45,6 @@
   background: white;
   padding: 1.5em;
   border-radius: 10px;
-  input {
-    border: 1px solid $Grayish-Blue;
-    color: $Dark-Blue;
-    font-weight: 600;
-    outline: none;
-    padding: 1em;
-    margin-bottom: 1.1em;
-    border-radius: 5px;
-    width: 100%;
-  }
   .btn {
     cursor: pointer;
     background: $Green;
@@ -86,6 +76,16 @@
 
 .form__control {
   position: relative;
+  input {
+    border: 1px solid $Grayish-Blue;
+    color: $Dark-Blue;
+    font-weight: 600;
+    outline: none;
+    padding: 1em;
+    margin-bottom: 1.1em;
+    border-radius: 5px;
+    width: 100%;
+  }
   &.error {
     input {
       margin-bottom: 2rem;

@@ -53,16 +53,6 @@ body {
   padding: 1.5em;
   border-radius: 10px;
 }
-.trail__form input {
-  border: 1px solid #b9b6d3;
-  color: #3e3c49;
-  font-weight: 600;
-  outline: none;
-  padding: 1em;
-  margin-bottom: 1.1em;
-  border-radius: 5px;
-  width: 100%;
-}
 .trail__form .btn {
   cursor: pointer;
   background: #38cc8c;
@@ -92,6 +82,16 @@ body {
 
 .form__control {
   position: relative;
+}
+.form__control input {
+  border: 1px solid #b9b6d3;
+  color: #3e3c49;
+  font-weight: 600;
+  outline: none;
+  padding: 1em;
+  margin-bottom: 1.1em;
+  border-radius: 5px;
+  width: 100%;
 }
 .form__control.error input {
   margin-bottom: 2rem;
